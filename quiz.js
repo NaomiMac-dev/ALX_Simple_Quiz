@@ -18,7 +18,7 @@ if (!selected) {
 const userAnswer = selected.value;
 
 // Compare the User’s Answer with the Correct Answer
-if ( userAnswer === correctAnswer) {
+if(userAnswer === correctAnswer) {
     feedback.textContent = "Correct! Well done.";
 } else {
     feedback.textContent = "That's incorrect. Try again!"
@@ -27,3 +27,4 @@ if ( userAnswer === correctAnswer) {
 
 // Add an Event Listener to the Submit Button
 document.getElementById('submit-answer').addEventListener('click', checkAnswer);
+// Edited on 2025-06-15 to trigger checker
